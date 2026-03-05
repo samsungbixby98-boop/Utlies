@@ -1,0 +1,25 @@
+.product-card {
+  padding: 18px;
+  border-radius: 10px;
+  background: #f8fafc;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.1);
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1e3a8a;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #2563eb;
+}
